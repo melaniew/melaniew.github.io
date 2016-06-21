@@ -47,7 +47,7 @@ body {
 
 /* my css */
 
-nav .navbar {border-bottom: 3px solid #ff7e00;}
+nav.navbar {border-bottom: 3px solid #ff7e00;}
 
 
 .marketing {margin-top: -110px;}
