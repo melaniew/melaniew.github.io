@@ -3,11 +3,13 @@
 /*jubotron theme*/
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
-  min-height: 2000px;
 }
 
-.jumbotron {background: url('images/sunflower.jpg'); background-size: cover;}
+.jumbotron {
+  background: url('images/sunflower.jpg') center top; 
+  background-size: cover;
+  height: 310px;
+}
 
 
 /* MARKETING CONTENT
@@ -40,3 +42,27 @@ body {
   line-height: 1;
   letter-spacing: -1px;
 }
+
+
+
+/* my css */
+
+nav .navbar {border-bottom: 3px solid #ff7e00;}
+
+.nav-bar nav {float: right;}
+
+
+
+.marketing {margin-top: -110px;}
+
+.col-lg-4 {width: 100%;}
+
+.btn-default {background: #FF7E00}
+
+
+footer {
+  background: url('images/sunflower.jpg') center top; 
+  background-size: cover;
+  height: 310px;
+}
+
