@@ -1,5 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700italic,700,400italic,300italic,300);
+
 /*jubotron theme*/
 body {
   padding-top: 50px;
@@ -54,6 +56,11 @@ nav.navbar {border-bottom: 3px solid #ff7e00;}
 
 .col-lg-4 {width: 100%;}
 
+.bio-container {
+  max-width: 730px;
+  font-family: 'Merriweather', Helvetica, sans-serif;
+
+}
 
 footer {
   background: url('images/sunflower.jpg') center top; 
