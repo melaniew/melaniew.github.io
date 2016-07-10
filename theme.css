@@ -65,8 +65,12 @@ nav.navbar {border-bottom: 3px solid #ff7e00;}
 }
 
 footer {
-  background: url('images/sunflower.jpg') center top; 
-  background-size: cover;
+  background: #252525;
   height: 310px;
+}
+
+#panel-skils {
+  background: url('images/keyboard.jpg') center;
+  background-size: cover;
 }
 
