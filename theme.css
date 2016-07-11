@@ -4,13 +4,83 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic);
 
 
-/*jubotron theme*/
 body {
-  padding-top: 50px;
+  font: 1.05em/1.55em,'Open Sans', Helvetica, sans-serif;
+  font-weight: 400;
+  top: 50px; /*nav bar height*/
+  margin: 0 auto;
+  background: #FFF;
 }
 
+/* ---- layout --- */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 74px;
+  /*padding: 52 */;
+}
+
+#panel-intro, #panel-bio, #panel-skills, #panel-work, footer {
+  text-align: center;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.45em;
+}
+
+.highlight {color: #ff7800;}
+
+.btn {
+  width: 234px;
+  height: 54px;
+  background: #ff7800;
+  color: #FFF;
+}
+
+
+/* ---- styling --- */
+
+.navbar {border-bottom: 3px solid #ff7e00;}
+
+
+
+
+#panel-bio li {
+  display: inline;
+}
+
+#panel-bio li:after {
+  content: ",";
+  float: right;
+}
+
+#panel-bio li:last-child:after {
+  content: none;
+}
+
+
+
+
+#panel-skills {
+  background: url('img/keyboard.jpg') center;
+  background-size: cover;
+}
+
+
+
+
+footer {
+  background: #252525;
+  height: 310px;
+}
+
+
+
+
 .jumbotron {
-  background: url('images/sunflower.jpg') center top; 
+  background: url('img/sunflower.jpg') center top; 
   background-size: cover;
   height: 310px;
 }
@@ -51,7 +121,6 @@ body {
 
 /* my css */
 
-nav.navbar {border-bottom: 3px solid #ff7e00;}
 
 
 .marketing {margin-top: -110px;}
@@ -64,13 +133,5 @@ nav.navbar {border-bottom: 3px solid #ff7e00;}
 
 }
 
-footer {
-  background: #252525;
-  height: 310px;
-}
 
-#panel-skils {
-  background: url('images/keyboard.jpg') center;
-  background-size: cover;
-}
 
