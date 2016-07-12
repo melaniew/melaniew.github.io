@@ -10,6 +10,7 @@ body {
   top: 50px; /*nav bar height*/
   margin: 0 auto;
   background: #FFF;
+  color: #363636;
 }
 
 /* ---- layout --- */
@@ -17,11 +18,11 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 74px;
+  padding: 74px 0;
   /*padding: 52 */;
 }
 
-#panel-intro, #panel-bio, #panel-skills, #panel-work, footer {
+#profile, #panel-bio, #panel-skills, #panel-work, footer {
   text-align: center;
 }
 
@@ -74,7 +75,7 @@ p {
   position: relative;
 }
 
-#panel-bio {
+#panel-bio:before {
   background: rgba(17, 17, 17, 0.89);
   max-height: 356px;
   position: absolute;
