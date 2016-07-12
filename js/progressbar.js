@@ -15,19 +15,19 @@ window.onload = function onLoad() {
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 
-	var bar = new ProgressBar.Circle('#css', {
+	var bar = new ProgressBar.Circle('#css','#jscript','#ruby','#uxd', {
 	  color: '#aaa',
 	  // This has to be the same size as the maximum width to
 	  // prevent clipping
 	  strokeWidth: 4,
 	  trailWidth: 1,
 	  easing: 'easeInOut',
-	  duration: 2400,
+	  duration: 2200,
 	  text: {
 	    autoStyleContainer: false
 	  },
 	  from: { color: '#aaa', width: 1 },
-	  to: { color: '#333', width: 4 },
+	  to: { color: '#ff7800', width: 6 },
 	  // Set default step function for all animate calls
 	  step: function(state, circle) {
 	    circle.path.setAttribute('stroke', state.color);
@@ -44,7 +44,7 @@ window.onload = function onLoad() {
 	});
 
 	//bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-	//bar.text.style.fontSize = '2rem';
+	bar.text.style.fontSize = '2rem';
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 }
