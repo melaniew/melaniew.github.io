@@ -47,9 +47,10 @@ a {text-decoration: none;}
 }
 
 #openingline {
-  width: 100%;
+  width: 99.9%;
   height: 2px;
   position: fixed;
+  z-index: 1;
 }
 
 
