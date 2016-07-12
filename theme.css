@@ -46,9 +46,10 @@ a {text-decoration: none;}
   border-radius: 50%;
 }
 
-#opening_line {
+#openingline {
   width: 100%;
   height: 6px;
+  margin: 2px;
 }
 
 
