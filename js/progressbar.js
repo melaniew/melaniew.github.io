@@ -43,8 +43,8 @@ window.onload = function onLoad() {
 	  }
 	});
 
-	bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-	bar.text.style.fontSize = '2rem';
+	//bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+	//bar.text.style.fontSize = '2rem';
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 }
