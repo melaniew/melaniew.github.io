@@ -5,7 +5,7 @@
 
 
 body {
-  font: 1.05em/1.55em,'Open Sans', Helvetica, sans-serif;
+  font: 1.05em/1.55em 'Open Sans', Helvetica, sans-serif;
   font-weight: 400;
   top: 50px; /*nav bar height*/
   margin: 0 auto;
@@ -47,13 +47,59 @@ p {
 
 
 
+#profile {
+  max-width: 479px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#profile:after {
+  border-bottom: 3px solid #777;
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding-top: 19px;
+}
+
+#profile img {border-radius: 100px;}
+
+
+
+
+#panel-bio {
+  background: url('img/keyboard.jpg') center;
+  background-size: cover;
+  max-height: 356px;
+  position: relative;
+}
+
+#panel-bio {
+  background: rgba(17, 17, 17, 0.89);
+  max-height: 356px;
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+
+#panel-bio ul {
+  font-size: 2em;
+  color: #fff;
+  line-height: 1.4em;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
 #panel-bio li {
   display: inline;
+  position: relative;
 }
 
 #panel-bio li:after {
   content: ",";
-  float: right;
 }
 
 #panel-bio li:last-child:after {
@@ -64,8 +110,7 @@ p {
 
 
 #panel-skills {
-  background: url('img/keyboard.jpg') center;
-  background-size: cover;
+
 }
 
 
