@@ -163,7 +163,7 @@ a {text-decoration: none;}
 
 
 
-#panel-skills section {
+#panel-skills .skill {
   max-width: 220px;
   display: inline-block;
   float: left;
