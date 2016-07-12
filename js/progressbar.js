@@ -1,7 +1,7 @@
 // progressbar.js@1.0.0 version is used
 // Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
 
-var bar = new ProgressBar.Line(opening_site, {
+var bar = new ProgressBar.Line(opening_line, {
   strokeWidth: 4,
   easing: 'easeInOut',
   duration: 1400,
