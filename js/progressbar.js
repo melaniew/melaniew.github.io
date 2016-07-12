@@ -4,7 +4,7 @@
 window.onload = function onLoad() {
 
 	var bar = new ProgressBar.Line('#openingline', {
-	  strokeWidth: 4,
+	  strokeWidth: 2,
 	  easing: 'easeInOut',
 	  duration: 1400,
 	  color: '#ff7800',
