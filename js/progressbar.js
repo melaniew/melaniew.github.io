@@ -44,8 +44,8 @@ window.onload = function onLoad() {
 	  }
 	});
 
-	bar.text.style.fontFamily = 'Helvetica, sans-serif';
-	bar.text.style.fontSize = '2em';
+	//bar.text.style.fontFamily = 'Helvetica, sans-serif';
+	//bar.text.style.fontSize = '2em';
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 }
