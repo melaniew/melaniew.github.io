@@ -126,6 +126,10 @@ a {text-decoration: none;}
   padding-top: 19px;
 }
 
+#profile h1 {
+  top: -100px;
+  display: none;
+}
 
 
 
@@ -215,6 +219,8 @@ footer li.instagram {}
 /*CSS Animations*/
 
 #profile h1 {
+  top: 0;
+  display: block;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
