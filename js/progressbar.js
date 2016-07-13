@@ -20,15 +20,15 @@ window.onload = function onLoad() {
 	  color: '#aaa',
 	  // This has to be the same size as the maximum width to
 	  // prevent clipping
-	  strokeWidth: 4,
-	  trailWidth: 1,
+	  strokeWidth: 8,
+	  trailWidth: 2,
 	  easing: 'easeInOut',
 	  duration: 2200,
 	  text: {
 	    autoStyleContainer: false
 	  },
-	  from: { color: '#aaa', width: 1 },
-	  to: { color: '#ff7800', width: 6 },
+	  from: { color: '#aaa', width: 2 },
+	  to: { color: '#ff7800', width: 8 },
 	  // Set default step function for all animate calls
 	  step: function(state, circle) {
 	    circle.path.setAttribute('stroke', state.color);

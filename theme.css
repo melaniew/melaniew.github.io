@@ -173,7 +173,6 @@ a {text-decoration: none;}
 
 #panel-skills .skill {
   max-width: 220px;
-  display: inline-block;
   float: left;
   padding: 0 40px;
 }
