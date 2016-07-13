@@ -182,7 +182,7 @@ a {text-decoration: none;}
   padding: 0 40px;
 }
 
-#css {
+#experience {
   margin: 20px;
   width: 120px;
   height: 120px;
@@ -219,8 +219,6 @@ footer li.instagram {}
 /*CSS Animations*/
 
 #profile h1 {
-  top: 0;
-  display: block;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -245,6 +243,8 @@ footer li.instagram {}
 }
 
 @keyframes fadein {
+    top: 0;
+    display: block;
     from { opacity: 0; }
     to   { opacity: 1; }
 }
