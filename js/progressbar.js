@@ -20,15 +20,15 @@ window.onload = function onLoad() {
 	  color: '#aaa',
 	  // This has to be the same size as the maximum width to
 	  // prevent clipping
-	  strokeWidth: 8,
-	  trailWidth: 2,
+	  strokeWidth: 12,
+	  trailWidth: 5,
 	  easing: 'easeInOut',
 	  duration: 2200,
 	  text: {
 	    autoStyleContainer: false
 	  },
-	  from: { color: '#aaa', width: 2 },
-	  to: { color: '#ff7800', width: 8 },
+	  from: { color: '#aaa', width: 5 },
+	  to: { color: '#ff7800', width: 12 },
 	  // Set default step function for all animate calls
 	  step: function(state, circle) {
 	    circle.path.setAttribute('stroke', state.color);
@@ -44,8 +44,8 @@ window.onload = function onLoad() {
 	  }
 	});
 
-	//bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-	//bar.text.style.fontSize = '2rem';
+	bar.text.style.fontFamily = 'Helvetica, sans-serif';
+	bar.text.style.fontSize = '2em';
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 }
