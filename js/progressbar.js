@@ -28,7 +28,7 @@ window.onload = function onLoad() {
 	    autoStyleContainer: false
 	  },
 	  from: { color: '#aaa', width: 1 },
-	  to: { color: '#ff7800', width: 4 },
+	  to: { color: '#ff7800', width: 10 },
 	  // Set default step function for all animate calls
 	  step: function(state, circle) {
 	    circle.path.setAttribute('stroke', state.color);
