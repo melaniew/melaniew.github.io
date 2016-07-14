@@ -15,7 +15,7 @@ window.onload = function onLoad() {
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 
-	var bar = new ProgressBar.Circle('#experience', {
+	var bar = new ProgressBar.Circle('#css #uxd', {
 
 	  color: '#aaa',
 	  // This has to be the same size as the maximum width to
