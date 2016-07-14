@@ -40,6 +40,14 @@ a {text-decoration: none;}
   margin: 0 auto;
 }
 
+.btn:hover {
+  border: 2px solid #ff7800;
+  background: #FFF;
+  text-decoration: underline;
+  color: #ff7800;
+  padding: 14px 0;
+}
+
 .img-crc {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -57,7 +65,7 @@ a {text-decoration: none;}
 /* ---- layout --- */
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 74px 0;
   /*padding: 52 */
@@ -127,8 +135,7 @@ a {text-decoration: none;}
 }
 
 #profile h1 {
-  top: -100px;
-  display: none;
+
 }
 
 
@@ -183,7 +190,7 @@ a {text-decoration: none;}
 }
 
 .experience {
-  margin: 20px;
+  margin: 20px auto;
   width: 120px;
   height: 120px;
   position: relative;
@@ -210,6 +217,11 @@ footer li {
   background: url('img/social-sprite');
 }
 
+.social-icons i {
+  width: 36px;
+  color: #ff7800;
+}
+
 footer li.linkedin {}
 
 footer li.github {}
@@ -220,60 +232,177 @@ footer li.instagram {}
 
 /*CSS Animations*/
 
-#profile h1 {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
+.fadeUp, #profile:after {
+    -webkit-animation: fadeUp 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeUp 1s; /* Firefox < 16 */
+        -ms-animation: fadeUp 1s; /* Internet Explorer */
+         -o-animation: fadeUp 1s; /* Opera < 12.1 */
+            animation: fadeUp 1s;
 }
 
-#profile img {
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s; 
-}
-
-#profile p {
-    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s; 
-}
-
-@keyframes fadein {
-    top: 0;
-    display: block;
-    from { opacity: 0; }
-    to   { opacity: 1; }
+@keyframes fadeUp {
+    from { 
+      opacity: 0; 
+      -webkit-transform: translate3d(0, 300%, 0);
+      transform: translate3d(0, 300%, 0);      
+    }
+    to   {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
 }
 
 /* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+@-moz-keyframes fadeUp {
+    from { 
+      opacity: 0; 
+      -webkit-transform: translate3d(0, 300%, 0);
+      transform: translate3d(0, 300%, 0);      
+    }
+    to   {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+@-webkit-keyframes fadeUp {
+      opacity: 0; 
+      -webkit-transform: translate3d(0, 300%, 0);
+      transform: translate3d(0, 300%, 0);      
+    }
+    to   {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
 }
 
 /* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+@-ms-keyframes fadeUp {
+    from { 
+      opacity: 0; 
+      -webkit-transform: translate3d(0, -300%, 0);
+      transform: translate3d(0, -300%, 0);      
+    }
+    to   {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
 }
 
 /* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+@-o-keyframes fadeUp {
+    from { 
+      opacity: 0; 
+      -webkit-transform: translate3d(0, -300%, 0);
+      transform: translate3d(0, -300%, 0);      
+    }
+    to   {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
 }
 
 
+.pulseEffect:hover {
+  -webkit-animation: pulseEffect 1s;
+   -moz-animation: pulseEffect 1s;
+    -ms-animation: pulseEffect 1s;
+     -o-animation: pulseEffect 1s;
+        animation: pulseEffect 1s;
+}
+
+@keyframes pulseEffect {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes pulseEffect {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes pulseEffect {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes pulseEffect {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes pulseEffect {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
 
