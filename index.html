@@ -14,6 +14,7 @@
     <link href="normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link href="theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
 
     <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     <script src="js/progressbar.js"></script>
@@ -62,25 +63,25 @@
    <div id="panel-skills" class="fadeUp">
       <div class="container">
          <div class="skill ">
-            <div class="experience" id="css"></div>
+            <div class="experience pulseEffect" id="css"></div>
             <h2>HTML5/CSS3</h2>                   
             <p>SASS, Media queries, Responsive design, 508 Compliant</p>
          </div>
 
          <div class="skill">
-            <div class="experience" id="jscript"></div>
+            <div class="experience pulseEffect" id="jscript"></div>
             <h2>Javascript</h2>                     
             <p>Straight Javascript, jQuery, Highcharts.js, D3.js</p>
          </div>
 
          <div class="skill">
-            <div class="experience" id="ruby"></div>
+            <div class="experience pulseEffect" id="ruby"></div>
             <h2>Ruby/Rails</h2>                     
             <p>Friendly with views, models, and controllers</p>
          </div>
 
          <div class="skill">
-            <div class="experience" id="uxd"></div>
+            <div class="experience pulseEffect" id="uxd"></div>
             <h2>UX Design</h2>                     
             <p>Hand-sketched mockups, wireframes, Photoshop layouts</p>
          </div>
@@ -90,6 +91,18 @@
 
    <div id="panel-work">
       <div class="container">
+
+        <section id="work-preview">
+         <img src="img/code-screenshot.png" />
+          <img src="http://placehold.it/400x200&text=2" />
+        </div> 
+
+        <section>
+          <p>Links to work</p>
+          <a hred="#"><img src="" alt="GMU CHSS logo" /></a>
+          <a hred="#"><img src="" alt="Project Create logo" /></a>          
+        </section> class   
+
          <a class="btn" href="MelanieWhite_Resume.pdf" role="button" alt="View Melanie White resume">View Resume</a>
       </div>
    </div>
@@ -108,7 +121,18 @@
          </div>
       </div>
    </footer>
-
+<!--http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+<script>
+$(window).load(function(){
+  $("#work-preview").twentytwenty({
+    //default_offset_pct: 0.7, // How much of the before image is visible when the page loads
+    orientation: 'horizontal' // Orientation of the before and after images ('horizontal' or 'vertical')
+  });
+});
+</script>
 
 
 </body>

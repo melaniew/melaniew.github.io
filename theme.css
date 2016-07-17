@@ -199,6 +199,11 @@ a {text-decoration: none;}
 
 #panel-work {clear: both;}
 
+#work-preview {
+  width: 600px;
+  height: 300px;
+}
+
 
 
 
