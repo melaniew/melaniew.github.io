@@ -59,7 +59,8 @@ a {text-decoration: none;}
   width: 99.9%;
   height: 2px;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
+  top: -17px;
 }
 
 
@@ -179,8 +180,8 @@ a {text-decoration: none;}
 
 .panel-skills .container {
   padding: 54px 0;
-    -webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
+    -webkit-column-count: 4; 
+    -moz-column-count: 4;
     column-count: 4;
 }
 
@@ -220,7 +221,6 @@ a {text-decoration: none;}
 
 footer {
   background: #252525;
-  /*height: 310px;*/
   color: #FFF;
 }
 
@@ -246,10 +246,10 @@ footer .social-icons i:hover {
 /*CSS Animations*/
 
 .fadeUp, #profile:after {
-    -webkit-animation: fadeUp 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadeUp 1s; /* Firefox < 16 */
-        -ms-animation: fadeUp 1s; /* Internet Explorer */
-         -o-animation: fadeUp 1s; /* Opera < 12.1 */
+    -webkit-animation: fadeUp 1s; 
+       -moz-animation: fadeUp 1s; 
+        -ms-animation: fadeUp 1s; 
+         -o-animation: fadeUp 1s; 
             animation: fadeUp 1s;
 }
 
@@ -420,6 +420,7 @@ footer .social-icons i:hover {
 }
 
 
+
 /* Media Queries */
 
 @media all and (max-width: 1024px) {
@@ -436,6 +437,7 @@ footer .social-icons i:hover {
   .panel-skills .skill {
     text-align: center;
     margin: 0 0 1em;
+    float: none;
   }
 }
 
@@ -464,6 +466,7 @@ footer .social-icons i:hover {
       -webkit-column-count: none;
       -moz-column-count: 1;
       column-count: 1;
+      padding-bottom: 0;
     }
     .panel-skills .skill {
       width: 100%;

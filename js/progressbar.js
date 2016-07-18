@@ -50,6 +50,6 @@ window.onload = function onLoad() {
 	bars.forEach(bar => bar.text.style.fontSize = '1.6rem');
 	bars.forEach(bar => bar.text.style.color = "#555" );
 
-	bars.forEach(bar => bar.animate(1));  // Number from 0.0 to 1.0
+	bars.forEach(bar => bar.animate(1));
 	
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
+    <meta name="description" content="Front End Development, Brand Design and Illustration">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
@@ -18,13 +18,14 @@
 
     <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     <script src="js/progressbar.js"></script>
+    <script src="modernizr_custom-3.3.1.js" type="text/javascript"></script>
 
   </head>
 
 <body>
    <div id="openingline"></div>
    <div class="navbar">
-      <img class="img-crc" src="img/profilepic.jpg" alt="Melanie White home" />
+      <a href="https://melaniew.github.io/"><img class="img-crc" src="img/profilepic.jpg" alt="Melanie White home" /></a>
       <nav>
         <ul>
             <li><a href="#skills">Skills</a></li>
@@ -135,8 +136,8 @@
   <script>
     $(window).load(function(){
       $("#work-preview").twentytwenty({
-        default_offset_pct: 0.7, // How much of the before image is visible when the page loads
-        orientation: 'horizontal' // Orientation of the before and after images ('horizontal' or 'vertical')
+        default_offset_pct: 0.7, 
+        orientation: 'horizontal'
       });
     });
   </script>
