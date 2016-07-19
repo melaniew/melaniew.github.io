@@ -17,39 +17,49 @@ window.onload = function onLoad() {
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 
-	var bars = ['#css', '#jscript', '#ruby', '#uxd'].map(id => new ProgressBar.Circle(id, {
+	var bars = ['#css', '#jscript', '#ruby', '#uxd'].map(function (id) {
+		return new ProgressBar.Circle(id, {
 
-	  color: '#aaa',
-	  // This has to be the same size as the maximum width to
-	  // prevent clipping
-	  strokeWidth: 2,
-	  trailWidth: 10,
-	  easing: 'easeInOut',
-	  duration: 1400,
-	  text: {
-	    autoStyleContainer: false
-	  },
-	  from: { color: '#aaa', width: 2 },
-	  to: { color: orange, width: 10 },
-	  // Set default step function for all animate calls
-	  step: function(state, circle) {
-	    circle.path.setAttribute('stroke', state.color);
-	    circle.path.setAttribute('stroke-width', state.width);
+			color: '#aaa',
+			// This has to be the same size as the maximum width to
+			// prevent clipping
+			strokeWidth: 2,
+			trailWidth: 10,
+			easing: 'easeInOut',
+			duration: 1400,
+			text: {
+				autoStyleContainer: false
+			},
+			from: { color: '#aaa', width: 2 },
+			to: { color: orange, width: 10 },
+			// Set default step function for all animate calls
+			step: function step(state, circle) {
+				circle.path.setAttribute('stroke', state.color);
+				circle.path.setAttribute('stroke-width', state.width);
 
-	    var value = Math.round(circle.value() * 100);
-	    if (value === 0) {
-	      circle.setText('');
-	    } else {
-	      circle.setText(value+'%');
-	    }
-	  }
+				var value = Math.round(circle.value() * 100);
+				if (value === 0) {
+					circle.setText('');
+				} else {
+					circle.setText(value + '%');
+				}
+			}
 
-	}));
+		});
+	});
 
-	bars.forEach(bar => bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif');
-	bars.forEach(bar => bar.text.style.fontSize = '1.6rem');
-	bars.forEach(bar => bar.text.style.color = "#555" );
+	bars.forEach(function (bar) {
+		return bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+	});
+	bars.forEach(function (bar) {
+		return bar.text.style.fontSize = '1.6rem';
+	});
+	bars.forEach(function (bar) {
+		return bar.text.style.color = "#555";
+	});
 
-	bars.forEach(bar => bar.animate(1));
+	bars.forEach(function (bar) {
+		return bar.animate(1);
+	});
 	
 }
