@@ -17,7 +17,7 @@ window.onload = function onLoad() {
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 
-	var bars = ['#css', '#jscript', '#ruby', '#uxd'].map(id => new ProgressBar.Circle(id, {
+	var bars = ['#css', '#jscript', '#ruby', '#uxd'].map(id = new ProgressBar.Circle(id, {
 
 	  color: '#aaa',
 	  // This has to be the same size as the maximum width to
@@ -46,10 +46,10 @@ window.onload = function onLoad() {
 
 	}));
 
-	bars.forEach(bar => bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif');
-	bars.forEach(bar => bar.text.style.fontSize = '1.6rem');
-	bars.forEach(bar => bar.text.style.color = "#555" );
+	bars.forEach(bar = bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif');
+	bars.forEach(bar = bar.text.style.fontSize = '1.6rem');
+	bars.forEach(bar = bar.text.style.color = "#555" );
 
-	bars.forEach(bar => bar.animate(1));
+	bars.forEach(bar = bar.animate(1));
 	
 }
