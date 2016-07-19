@@ -187,9 +187,10 @@ a {text-decoration: none;}
 
 .panel-skills .skill {
   max-width: 240px;
+  min-height: 260px;
   float: left;
-  display: inline-block;
   padding: 0 40px;
+  margin: 0 auto;
 }
 
 .panel-skills h2 {margin-bottom: 8px;}
@@ -436,7 +437,7 @@ footer .social-icons i:hover {
   }
   .panel-skills .skill {
     text-align: center;
-    margin: 0 0 1em;
+    margin: 0 auto 1em;
     float: none;
   }
 }
