@@ -1,8 +1,12 @@
 
 
 #temp-header {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img.header {
+	max-width: 50%;
+    padding-top: 100px;
 }
