@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Front End Development, Brand Design and Illustration">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Melanie White: Front End Developer</title>
+
+    <link href="normalize.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="theme.css" rel="stylesheet">
+    <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <script src="js/analytics.js"></script>
+    <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+    <script src="js/progressbar.js"></script>
+
+  </head>
+
+<body>
+   <div id="openingline"></div>
+   <div class="navbar">
+      <a href="https://melaniew.github.io/"><img class="img-crc" src="img/profilepic.jpg" alt="Melanie White home" /></a>
+      <nav>
+        <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+   </div>
+   
+   <div class="container">
+      <div id="intro" class="panel-profile">
+         <h1 class="fadeUp">Melanie White</h1>
+         <img class="img-crc fadeUp" src="img/profilepic.jpg" alt="Photo of Melanie White" width="140" height="140" />
+         <p class="fadeUp">Front End Developer • Illustrator • Writer</p>
+      </div>
+   </div>
+
+   <div id="skills" class="panel-bullets">
+      <div class="container">
+         <ul class="pulseEffect">
+            <li><span class="highlight">Repsonsive</span> Web Design</li>
+            <li><span class="highlight">UX</span> Design</li><br/>
+            <li><span class="highlight">Front-end</span> Development</li>
+            <li><span class="highlight">Debugging</span> &amp; Testing</li><br/>
+            <li><span class="highlight">CMS</span> support</li>
+            <li>clean <span class="highlight">508</span> Compliant code</li>
+            <li><span class="highlight">Client</span> training</li><br/>
+            <li><span class="highlight"Logo</span> Design</li>
+            <li><span class="highlight">Photo</span> Editing</li>
+            <li><span class="highlight">Illustration</span></li> 
+          </ul>
+      </div>
+   </div>
+
+   <div class="panel-skills fadeUp">
+      <div class="container">
+         <div class="skill">
+            <div class="experience" id="css"></div>
+            <h2>HTML5/CSS3</h2>                   
+            <p>Clean HTML, CSS3 transitions, SASS, Media queries</p>
+         </div>
+
+         <div class="skill">
+            <div class="experience" id="jscript"></div>
+            <h2>Javascript</h2>                     
+            <p>Straight Javascript, jQuery, Highcharts.js, D3.js</p>
+         </div>
+
+         <div class="skill">
+            <div class="experience" id="ruby"></div>
+            <h2>Ruby/Rails</h2>                     
+            <p>Friendly with views, models, and controllers</p>
+         </div>
+
+         <div class="skill">
+            <div class="experience" id="uxd"></div>
+            <h2>UX Design</h2>                     
+            <p>Hand-sketched wireframes, UX mockups, Photoshop layouts</p>
+         </div>
+      </div>
+   </div>
+
+
+   <div id="work" class="panel-work">
+      <div class="container">
+
+        <section id="work-preview" class="twentytwenty-container">
+          <img src="img/code-screenshot.png" />
+          <img src="img/chss-screenshot.png" />
+        </section> 
+
+        <!--
+        <section>
+          <p>Links to work</p>
+          <a hred="#"><img src="" alt="GMU CHSS logo" /></a>
+          <a hred="#"><img src="" alt="Project Create logo" /></a>          
+        </section> class   
+        -->
+
+         <div class="container" style="padding-bottom:0;">
+          <a class="btn" href="MelanieWhite_Resume+Refs.pdf" role="button" alt="View Melanie White resume">View Resume</a>
+        </div>
+
+      </div>
+   </div>
+
+
+   <footer id="contact">
+      <div class="container">
+         <h2>Melanie White</h2>
+         <p>email: <a href="mailto:melwhite.a@gmail.com">melwhite.a@gmail.com</a></p>
+         <div class="social-icons">
+            <ul>
+              <li class="linkedin"><a href="https://www.linkedin.com/in/whitemelanie"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+              <li class="github"><a href="https://www.github.com/melaniew"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li class="instagram"><a href="https://www.instagram.com/my5ft2view"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+         </div>
+      </div>
+   </footer>
+
+<!-- LOAD SCRIPTS -->   
+  <!--http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="js/jquery.event.move.js"></script>
+  <script src="js/jquery.twentytwenty.js"></script>
+  <script>
+    $(window).load(function(){
+      $("#work-preview").twentytwenty({
+        default_offset_pct: 0.7, 
+        orientation: 'horizontal'
+      });
+    });
+  </script>
+  <script src="js/modernizr-3.3.1.js"></script>
+
+
+</body>
+</html>
+
+
+
