@@ -1,3 +1,3 @@
 # melaniewhite personal site
 
-<a href="http://melaniew.github.io" target="new_window">melaniew.github.io</a>
+<a href="http://melaniew.github.io" target="_blank">melaniew.github.io</a>
