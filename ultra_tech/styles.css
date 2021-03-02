@@ -39,6 +39,25 @@ body {
     background-size: cover;
 }
 
+.capabilties-band .card-body {
+	border-top: 4px solid #deb887;
+}
+
+.capabilties-band .card-title {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.capabilties-band .card-title::after {
+	border-bottom: 3px solid #8e2e2e;
+    width: 40px;
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -11px;	
+}
+
+
 /* colors */
 /* background: #deb887bd; tan 
     background-color: teal;
@@ -46,6 +65,10 @@ body {
 
 .bg-navy {
 	background: #064c75;
+}
+
+.bg-trannavy {
+	background: #063e5eb8;
 }
 
 .bg-offwhite {
