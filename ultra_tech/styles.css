@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,800;1,600&family=Rubik:wght@400;500;600&display=swap');
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.welcome-banner {
+	background: url('img/placeholder.jpg') 0 0 transparent;
+	background-size: cover;
+}
+
+.welcome-banner h1 {
+	color: #fff;
+	font-weight: 800;
+}
+
+.services-band .card-deck {
+	text-align: center;
+}
+
+.services-band .card {
+	border: 0;
+	border-radius: 4px;
+	box-shadow: 2px 2px 5px #eee;
+}
+
+.services-band .card i {
+	color: #064c75;
+}
+
+.services-band .card h5 {
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.clients-band {
+	background: url(img/buildings.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* colors */
+/* background: #deb887bd; tan 
+    background-color: teal;
+*/
+
+.bg-navy {
+	background: #064c75;
+}
+
+.bg-offwhite {
+	background: #fafafa;
+}
+
+.bg-trantan {
+	background: #8e2e2e;
+	background: #064c75a8;
+    background: #deb887bd;
+}
+
+.btn-ut {
+	color: #FFF;
+	background: #8e2e2e; /* burgendy color */
+    border-color: #8e2e2e;
+}
