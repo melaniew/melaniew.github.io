@@ -17,7 +17,7 @@ window.onload = function onLoad() {
 
 	bar.animate(1.0);  // Number from 0.0 to 1.0
 
-	var bars = ['#css', '#jscript', '#ruby', '#uxd'].map(function (id) {
+	var bars = ['#uxd', '#research', '#dev', '#pair'].map(function (id) {
 		return new ProgressBar.Circle(id, {
 
 			color: '#aaa',
