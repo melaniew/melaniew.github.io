@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Study Template</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="projects_default.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <span class="brand-avatar"></span>
+        <span class="brand-name">Melanie White</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#">Work</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="portfolio-page">
+    <article class="case-study">
+      <!-- HERO -->
+      <section class="case-hero">
+        <div class="container">
+          <div class="case-meta">
+            <p class="eyebrow">Case Study</p>
+            <h1 class="case-title">MVP: From Paper to Digital Process</h1>
+            <p class="case-subtitle">
+              Digitizing a paper-based refugee application review experience
+              while improving usability in complex, multilingual environments.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUMMARY BAND -->
+      <section class="case-summary">
+        <div class="container">
+          <div class="summary-table">
+            <div class="summary-item">
+              <span class="summary-key">Project</span>
+              <span class="summary-text">Form Review Application</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Role</span>
+              <span class="summary-text">UX Designer / Research / Facilitation / Launch Support</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Methods</span>
+              <span class="summary-text">Field studies, interviews, usability testing, surveys, workshops</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Timeline</span>
+              <span class="summary-text">2022</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FLEXIBLE SECTIONS -->
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Overview</p>
+          <h2>The challenge</h2>
+          <p>
+            USCIS needed to digitize a paper-heavy process used in sensitive,
+            multilingual, real-world environments. The experience had to feel
+            clear, low-friction, and policy-aligned.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Context</p>
+          <h2>What made this workflow unique</h2>
+          <div class="insight-grid">
+            <div class="insight-card">
+              <h3>Language mediation</h3>
+              <p>Officers often communicated through interpreters, which changed pacing and comprehension.</p>
+            </div>
+            <div class="insight-card">
+              <h3>Family complexity</h3>
+              <p>Larger family groups increased completion time and required clearer coordination.</p>
+            </div>
+            <div class="insight-card">
+              <h3>Device hesitation</h3>
+              <p>Some users needed visual reassurance before using the iPad.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Process</p>
+          <h2>How I approached the work</h2>
+          <div class="process-steps">
+            <div class="process-step">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Research</h3>
+                <p>Observed workflows and identified user pain points in context.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Facilitation</h3>
+                <p>Led workshops to surface assumptions, needs, and constraints.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Pilot & iteration</h3>
+                <p>Validated ideas in pilot settings and refined the experience.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Artifacts</p>
+          <h2>Design moments</h2>
+          <div class="artifact-grid">
+            <div class="artifact-box">Wireframe / Flow / Diagram</div>
+            <div class="artifact-box">Usability insight snapshot</div>
+            <div class="artifact-box">Pilot photo or screen</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Impact</p>
+          <h2>What changed</h2>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <strong>Better comprehension</strong>
+              <p>Users received more cues and clearer interaction support.</p>
+            </div>
+            <div class="metric-card">
+              <strong>More operational clarity</strong>
+              <p>Teams aligned around launch needs, logistics, and mitigation.</p>
+            </div>
+            <div class="metric-card">
+              <strong>Policy-aware design</strong>
+              <p>The solution fit existing requirements while improving usability.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
