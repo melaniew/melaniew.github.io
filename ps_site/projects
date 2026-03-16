@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Case Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="projects.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <span class="brand-avatar"></span>
+        <span class="brand-name">Melanie White</span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#">Work</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="project-summary">
+      <div class="container">
+        <div class="summary-grid">
+          <div class="summary-row">
+            <div class="summary-label">Project Name</div>
+            <div class="summary-value">Form Review Application</div>
+          </div>
+
+          <div class="summary-row">
+            <div class="summary-label">User Research</div>
+            <div class="summary-value">
+              User Interviews, Field Studies / Observation, Usability Testing,
+              Post-Feedback Surveys, Focus Groups
+            </div>
+          </div>
+
+          <div class="summary-row">
+            <div class="summary-label">My Role</div>
+            <div class="summary-value">
+              I led the full product development process, facilitated workshops,
+              uncovered user requirements, and helped coordinate launch.
+            </div>
+          </div>
+
+          <div class="summary-row">
+            <div class="summary-label">Project Overview</div>
+            <div class="summary-value">
+              USCIS aimed to transform a manual paper process into a more
+              efficient digital workflow. This MVP focused on digitizing refugee
+              application form review.
+            </div>
+          </div>
+
+          <div class="summary-row">
+            <div class="summary-label">Release Date</div>
+            <div class="summary-value">Nov 2022</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="case-study-shell">
+      <div class="container shell-grid">
+        <!-- STICKY SIDEBAR -->
+        <aside class="case-sidebar">
+          <div class="toc-card">
+            <p class="toc-label">On this page</p>
+            <nav class="toc-nav">
+              <a href="#overview">Overview</a>
+              <a href="#factors">Factors</a>
+              <a href="#pilot-learnings">Pilot Learnings</a>
+              <a href="#brainstorming">Brainstorming</a>
+              <a href="#challenge">Biggest Challenge</a>
+              <a href="#takeaways">Takeaways</a>
+            </nav>
+          </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <div class="case-main">
+          <section id="overview" class="content-section">
+            <h1>MVP: From Paper to Digital Process</h1>
+            <p class="intro-text">
+              Seating arrangement in room; Parents sign for underage children;
+              Non-English readers need cues to interact with iPad; hesitant to
+              click iPad.
+            </p>
+
+            <div class="card-grid card-grid--3">
+              <article class="info-card">
+                <div class="card-icon">⌘</div>
+                <h3>Logistics &amp; Planning</h3>
+                <ul>
+                  <li>Coordinate materials and handoff</li>
+                  <li>Align launch logistics</li>
+                  <li>Clarify timing and dependencies</li>
+                  <li>Support rollout coordination</li>
+                </ul>
+              </article>
+
+              <article class="info-card">
+                <div class="card-icon">⌘</div>
+                <h3>Risk Mitigation</h3>
+                <ul>
+                  <li>Prepare support plan</li>
+                  <li>Track issues before launch</li>
+                  <li>Assist stakeholders with adoption</li>
+                  <li>Troubleshoot during launch week</li>
+                </ul>
+              </article>
+
+              <article class="info-card">
+                <div class="card-icon">⌘</div>
+                <h3>Pilot Team Training</h3>
+                <ul>
+                  <li>Educated pilot participants</li>
+                  <li>Established communication channel</li>
+                  <li>Ran workflow rehearsals</li>
+                  <li>Shared mitigation guidance</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <section id="factors" class="content-section">
+            <p class="section-kicker">XXX</p>
+            <h2>Factors unique to refugee process impact time</h2>
+            <p>
+              Several contextual factors shaped the experience and increased the
+              time needed to complete the process successfully.
+            </p>
+
+            <ul class="body-list">
+              <li>Larger families can add additional time per interaction.</li>
+              <li>3-way communication slows the conversation flow.</li>
+              <li>Some users needed visual cues before interacting with the iPad.</li>
+              <li>Room layout influenced confidence and clarity.</li>
+            </ul>
+
+            <div class="mini-card-grid">
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Seating arrangement in room</span>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Parents sign for underage children</span>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Icons help</span>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Interpreter flow matters</span>
+              </div>
+            </div>
+
+            <div class="image-placeholder">
+              <div class="image-circle"></div>
+              <p>This area can hold a research photo, diagram, or pilot scene image.</p>
+            </div>
+          </section>
+
+          <section id="pilot-learnings" class="content-section">
+            <p class="section-kicker">XXX</p>
+            <h2>What we learned from the Pilot</h2>
+            <p>
+              The pilot revealed that visual cues, room setup, and simplified
+              communication patterns were important to building confidence in the
+              experience.
+            </p>
+
+            <ul class="body-list">
+              <li>Parents often signed on behalf of underage children.</li>
+              <li>Interpreter mediation changed pacing and comprehension.</li>
+              <li>Users needed reassurance before tapping unfamiliar devices.</li>
+              <li>Simple symbols supported better understanding.</li>
+            </ul>
+
+            <div class="mini-card-grid">
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Room setup affects comfort</span>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Guardians sign for minors</span>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Icons improve usability</span>
+              </div>
+              <div class="mini-card">
+                <div class="mini-icon">⌘</div>
+                <span>Language support is essential</span>
+              </div>
+            </div>
+
+            <div class="image-placeholder">
+              <div class="image-circle"></div>
+              <p>This area can hold a test image, workflow, or annotated screenshot.</p>
+            </div>
+          </section>
+
+          <section id="brainstorming" class="content-section">
+            <p class="section-kicker">TEAM FACILITATION</p>
+            <h2>Brainstorming &amp; assumption tracking</h2>
+            <p class="section-kicker">XXX</p>
+
+            <div class="dashed-box">
+              <span>DESIGN / JOURNEY MAP / WORKSHOP OUTPUT</span>
+            </div>
+          </section>
+
+          <section id="challenge" class="content-section">
+            <p class="section-kicker">BIGGEST CHALLENGE</p>
+            <h2>Hardware &amp; software in remote locations</h2>
+            <p>
+              Designing for remote environments required careful thinking about
+              reliability, connectivity, setup constraints, and operational
+              support across different locations.
+            </p>
+          </section>
+
+          <section id="takeaways" class="content-section">
+            <p class="section-kicker">TAKEAWAYS</p>
+            <h2>Fitting a digital process into current policy regulations</h2>
+            <p>
+              The final solution had to respect existing policy expectations
+              while improving usability, reducing friction, and making the
+              process feel clearer for families and officers alike.
+            </p>
+          </section>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
