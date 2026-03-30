@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iPad Signature Application Case Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="projects.css" />
+  <link rel="stylesheet" href="menu-nav.css" />
+  <script src="menu-nav.js"></script>  
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <span class="brand-avatar"></span>
+        <span class="brand-name">Melanie White</span>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-item has-dropdown">
+          <button
+            class="nav-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+          >
+            Work
+          </button>
+
+          <div class="dropdown-menu" role="menu">
+            <a href="mvp.html" role="menuitem">
+              MVP Case Study
+            </a>
+            <a href="ipad.html" role="menuitem">
+              iPad Case Study
+            </a>
+            <a href="ohlcf.html" role="menuitem">
+              OHLCF Web Redesign
+            </a>
+          </div>
+        </div>
+
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="portfolio-page">
+    <article class="case-study">
+      <!-- HERO -->
+      <section class="case-hero">
+        <div class="container">
+          <div class="case-meta">
+            <p class="eyebrow">Case Study</p>
+            <h1 class="case-title">iPad Signature Collection</h1>
+<!--             <p class="case-subtitle">
+              Digitizing a paper-based refugee application review experience
+              while improving usability in complex, multilingual environments.
+            </p> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SUMMARY BAND -->
+      <section class="case-summary">
+        <div class="container">
+          <div class="summary-table">
+            <div class="summary-item">
+              <span class="summary-key">Project</span>
+              <span class="summary-text">iPad Signature Collection</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Role</span>
+              <span class="summary-text">Product Design</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Methods</span>
+              <span class="summary-text">User & Technical Research / Usability Testing / Field Observation</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FLEXIBLE SECTIONS -->
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Overview</p>
+          <h2>HMW Statment</h2>
+          <p>
+            How might we allow the primary refugee applicant review their application for themselves and their family member(s) and provide a digital signature?
+          </p>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Process</p>
+          <h2>How I approached the work</h2>
+          <div class="process-steps">
+            <div class="process-step">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Field Observation</h3>
+                <p>Traveled to offices to observe the "wet" signature collection process. Observed workflows and identified user pain points in context.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Facilitation</h3>
+                <p>Led workshops to surface assumptions, needs, and constraints.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Wireframes & Design Patterns</h3>
+                <p>Mapped out low and high-fidelity wireframes to quickly pair with developers on technical fesibility. Utilized UI components from design library.</p>
+              </div>              
+            </div>
+            <div class="process-step">
+              <span class="step-number">04</span>
+              <div>
+                <h3>Pilot & iteration</h3>
+                <p>Validated ideas in a pilot setting and refined the experience based of feedback.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Artifacts</p>
+          <h2>Design moments</h2>
+          <div class="dashed-box image-placeholder">
+            <img src="imgs/ipad-artifact.png" />
+          </div>
+          <p><em>Low-fidelity wireframe of iPad application screens</em></p>
+        </div>
+      </section>
+
+      <!-- lightbox -->
+      <div class="lightbox" id="lightbox" aria-hidden="true">
+        <div class="lightbox-backdrop"></div>
+
+        <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Expanded project artifact">
+          <button class="lightbox-close" type="button" aria-label="Close image preview">
+            ×
+          </button>
+
+          <img class="lightbox-image" src="" alt="" />
+          <p class="lightbox-caption"></p>
+        </div>
+      </div>
+      <!-- @end lightbox -->
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Findings</p>
+          <h2>What made this workflow unique</h2>
+          <div class="insight-grid">
+            <div class="insight-card">
+              <h3>Paper</h3>
+              <p>Officers often communicated through interpreters, which changed pacing and comprehension.</p>
+            </div>
+            <div class="insight-card">
+              <h3>Colorful Cues</h3>
+              <p>The button colors streamlined communication between the officer, interpreter, and applicants — Instructing click "red” or “blue” kept the signature process moving smoothly.</p>
+            </div>
+            <div class="insight-card">
+              <h3>Device Hesitation</h3>
+              <p>Applicants were initially nervous to interact with the iPad, worried they might make a mistake or damage it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Biggest Challenge</p>
+          <h2>Paper convenience over software</h2>
+          <p>Due to internet lags, officers found themselves priting the applications, having applicants sign, and uploading the signed documents to not waste time and continue moving forward with the refugee interview process.</p>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Validating Assumptions</p>
+          <h2>Vertical orientation preferred</h2>
+          <p>There was an inital assumption that officers were utilizing the iPad in a landscape orientation so that refugee applicants had ample room to sign their names. This was not always the case. Officers presented the iPad in portrait orientation to display more reading view of the applicant’s form.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Impact</p>
+          <h2>What changed</h2>
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <strong>Better comprehension</strong>
+              <p>Users received more cues and clearer interaction support.</p>
+            </div>
+            <div class="metric-card">
+              <strong>More operational clarity</strong>
+              <p>Teams aligned around launch needs, logistics, and mitigation.</p>
+            </div>
+            <div class="metric-card">
+              <strong>Policy-aware design</strong>
+              <p>The solution fit existing requirements while improving usability.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+<script src="lightbox-artifacts.js"></script>
+
+</body>
+</html>

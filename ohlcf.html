@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OHLCF Logo & Web Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="projects.css" />
+  <link rel="stylesheet" href="menu-nav.css" />
+  <script src="menu-nav.js"></script>  
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <span class="brand-avatar"></span>
+        <span class="brand-name">Melanie White</span>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-item has-dropdown">
+          <button
+            class="nav-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+          >
+            Work
+          </button>
+
+          <div class="dropdown-menu" role="menu">
+            <a href="mvp.html" role="menuitem">
+              MVP Case Study
+            </a>
+            <a href="ipad.html" role="menuitem">
+              iPad Case Study
+            </a>
+            <a href="ohlcf.html" role="menuitem">
+              OHLCF Web Redesign
+            </a>
+          </div>
+        </div>
+
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="portfolio-page">
+    <article class="case-study">
+      <!-- HERO -->
+      <section class="case-hero">
+        <div class="container">
+          <div class="case-meta">
+            <!-- <p class="eyebrow">Logo & Web Design</p> -->
+            <h1 class="case-title">OHL Charitable Foundation Redesign</h1>
+<!--             <p class="case-subtitle">
+              Digitizing a paper-based refugee application review experience
+              while improving usability in complex, multilingual environments.
+            </p> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SUMMARY BAND -->
+      <section class="case-summary">
+        <div class="container">
+          <div class="summary-table">
+            <div class="summary-item">
+              <span class="summary-key">Project</span>
+              <span class="summary-text"> Logo & Web Redesign</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Role</span>
+              <span class="summary-text">Consultant / Designer / Developer / Content Editor</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Tools</span>
+              <span class="summary-text">Affinity Designer / Figma / Midjourney / ChatGPT / Squarespace</span>
+            </div>            
+        </div>
+      </section>
+
+      <!-- FLEXIBLE SECTIONS -->
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Overview</p>
+          <h2>The problem</h2>
+          <p>
+            The Omicron Eta Lambda Charitable Foundation (OHLCF) operates with limited funding, relying heavily on one-time donations and small fundraising events. The current website does not collect recurring contributions. Because of this, OHLCF is unable to build sustained donor relationships and generate consistent funding. 
+          </p>
+          <p>
+            The website does not reflect OHLCF's professionalism, character, and commitment to the D.C. community.
+          </p>
+          <p>
+            The organization does not have a designated logo.
+          </p>
+        </div>
+      </section>
+
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Branding</p>
+          <h2>Logo Design</h2>
+          <div class="artifact-grid">
+            <button
+              class="artifact-box"
+              type="button"
+              data-full="imgs/ohl-old-web-logo.png"
+              data-alt="HLCF unofficial logot"
+            >
+              <img src="imgs/ohl-old-web-logo.png" alt="OHLCF unofficial logo." />
+              <span class="artifact-caption">Unofficial logo</span>
+            </button>
+
+            <button
+              class="artifact-box"
+              type="button"
+              data-full="imgs/ohlcf-official-logo.png"
+              data-alt="New OHL logo inspired by the D.C. MLK Monument"
+            >
+              <img src="imgs/ohlcf-official-logo.png" alt="New OHLCF logo" />
+              <span class="artifact-caption">New OHL logo inspired by the D.C. MLK Monument</span>
+            </button>
+
+            <button
+              class="artifact-box"
+              type="button"
+              data-full="imgs/ohlcf-special-logo.png"
+              data-alt="Usability testing insight snapshot"
+            >
+              <img src="imgs/ohlcf-special-logo.png" alt="New OHLCF logo for special occasions" />
+              <span class="artifact-caption">Secondary OHL logo for special occasions and events</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- lightbox -->
+      <div class="lightbox" id="lightbox" aria-hidden="true">
+        <div class="lightbox-backdrop"></div>
+
+        <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Expanded project artifact">
+          <button class="lightbox-close" type="button" aria-label="Close image preview">
+            ×
+          </button>
+
+          <img class="lightbox-image" src="" alt="" />
+          <p class="lightbox-caption"></p>
+        </div>
+      </div>
+      <!-- @end lightbox -->
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Process</p>
+          <h2>How I approached the web redesign</h2>
+          <div class="process-steps">
+            <div class="process-step">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Consultation</h3>
+                <p>Met with POC (Chairmam Board of Directors) to discuss vision, requirements, and necessary fuctionality for website.</p>
+              </div>
+            </div>            
+            <div class="process-step">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Audit of current site</h3>
+                <p>Reviewed site stucture, current voice and messaging. Noted inconsistencies in design. Reported broken links and pages.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Hi-fidelity wireframing</h3>
+                <p>Presented new website mocks and prototype.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">04</span>
+              <div>
+                <h3>Images & Content</h3>
+                <p>Generated pictures and refreshed text and language to showcase language with a purpose.</p>
+              </div>
+            </div>            
+            <div class="process-step">
+              <span class="step-number">05</span>
+              <div>
+                <h3>Selection of tech-pack</h3>
+                <p>Researched web platforms with affordable CMS and hosting, within budget.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Vision</p>
+          <h2>Web redesign objectives</h2>
+          <div class="insight-grid">
+            <div class="insight-card">
+              <h3>#1</h3>
+              <p>Present a strong, informative website that embodies the foundation’s community-driven values.</p>
+            </div>
+            <div class="insight-card">
+              <h3>#2</h3>
+              <p>Build awareness of OHLCF’s mission, scholarship, and programs to visitors.</p>
+            </div>
+            <div class="insight-card">
+              <h3>#3</h3>
+              <p>Strengthen donor relationships to increase recurring donations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Wireframes</p>
+          <h2>Moments in Figma</h2>
+          <div class="dashed-box image-placeholder">
+            <img src="imgs/ohlcf-webmock-1.png" />
+          </div>
+          <div class="dashed-box image-placeholder">
+            <img src="imgs/ohlcf-webmock-2.png" />
+          </div>          
+          <p><em>Wireframes of homepage and internal pages</em></p>
+        </div>
+      </section>
+
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Final Website</p>
+          <div class="btn-container">
+            <button class="outbound-btn">
+              <a href="https://www.ohlcf1906.org/" target="_blank" rel="noopener noreferrer">OHLCF Website</a>
+            </button>
+          </div>
+      </section>
+    </article>
+  </main>
+
+<script src="lightbox-artifacts.js"></script>
+
+</body>
+</html>

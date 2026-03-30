@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MVP Case Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="projects.css" />
+  <link rel="stylesheet" href="menu-nav.css" />
+  <script src="menu-nav.js"></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <span class="brand-avatar"></span>
+        <span class="brand-name">Melanie White</span>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-item has-dropdown">
+          <button
+            class="nav-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+          >
+            Work
+          </button>
+
+          <div class="dropdown-menu" role="menu">
+            <a href="mvp.html" role="menuitem">
+              MVP Case Study
+            </a>
+            <a href="ipad.html" role="menuitem">
+              iPad Case Study
+            </a>
+            <a href="ohlcf.html" role="menuitem">
+              OHLCF Web Redesign
+            </a>
+          </div>
+        </div>
+
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="portfolio-page">
+    <article class="case-study">
+      <!-- HERO -->
+      <section class="case-hero">
+        <div class="container">
+          <div class="case-meta">
+            <p class="eyebrow">Case Study</p>
+            <h1 class="case-title">MVP: From Paper to Digital Process</h1>
+            <p class="case-subtitle">
+              Digitizing a paper-based refugee application review experience
+              while improving usability in complex, multilingual environments.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUMMARY BAND -->
+      <section class="case-summary">
+        <div class="container">
+          <div class="summary-table">
+            <div class="summary-item">
+              <span class="summary-key">Project</span>
+              <span class="summary-text">Form Review Application</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Role</span>
+              <span class="summary-text">UX Designer / Research / Facilitation / Launch Support</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Role</span>
+              <span class="summary-text">User Interviews, Field Studies / Observation, Usability Testing, Post-Feedback Surveys, Focus Groups</span>
+            </div>
+            <div class="summary-item">
+              <span class="summary-key">Methods</span>
+              <span class="summary-text">Field studies, interviews, usability testing, surveys, workshops</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FLEXIBLE SECTIONS -->
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Overview</p>
+          <h2>The mission</h2>
+          <p>
+            USCIS needed to digitize a paper-heavy process used in sensitive,
+            multilingual, real-world environments. The experience had to feel
+            clear, low-friction, and policy-aligned.
+          </p>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Getting Started</p>
+          <h2><em>“We Need X, to Solve Y” – Stakeholders</em></h2>
+          <p>
+            Understanding the business objectives and needs was the first and foremost important step. Workshops and syncs were organized to discuss expectations and maintain alignment.
+          </p>
+          <p>Meetings included: Roadmap Syncs, Problem Statement workshops, Risks & Mitigations, Brainstorm Sessions, and Design Studios.
+          </p>
+
+          <!-- ADD CSS -->
+          <div class="dashed-box image-placeholder">
+            <img src="imgs/MVP-business-goals.png" alt="Business goals on sticky notes from workshop with Stakeholders." />
+          </div>
+          <p><em>Workshop with stakeholders.</em></p>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Discovery Research</p>
+          <h2>Identify research objectives </h2>
+          <p>
+            <ul>
+            <li>Learn how Immigration officers navigate reviewing multiple paper applications</li>
+            <li>Uncover hidden challenges and inefficiencies in the process</li>
+            <li>Understand the interation betwwen officers and refugee applicants during interview</li>
+          </ul>
+        </p>
+        </div>
+      </section>
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Context</p>
+          <h2>What made this process unique</h2>
+          <div class="insight-grid">
+            <div class="insight-card">
+              <h3>Language mediation</h3>
+              <p>Officers often communicated through interpreters, which changed pacing and comprehension.</p>
+            </div>
+            <div class="insight-card">
+              <h3>Family complexity</h3>
+              <p>Larger family groups increased completion time and required clearer coordination.</p>
+            </div>
+            <div class="insight-card">
+              <h3>Handwriting corrections</h3>
+              <p>Paper reviewers corrected typos, adding more time in critical environment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--       <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Design Process</p>
+          <h2>Motto: Keep it lean</h2>
+          <p>
+            “Keep it lean” was the motto from beginning. The challenge was not just turning a paper application into a digital one, but also digitizing the overall process regulated by policy, the officers’ ad-hoc methods, and motivated behaviors to make the process more efficient.
+          </p>
+          <p>Starting with wireframes and utilizing components from USWDS (U.S. Web Design System), the idea was to showcase multiple applications (for each family member) simultanesouly on the screen.
+          </p>
+          <div class="dashed-box">
+            <span>DESIGN</span>
+          </div>
+          <p> HMW xxx</p>
+        </div>
+      </section> -->
+
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Design Process</p>
+          <h2>How I approached the design</h2>
+          <div class="process-steps">
+            <div class="process-step">
+              <span class="step-number">01</span>
+              <div>
+                <h3>Motto: Keep it lean</h3>
+                <p>
+                  “Keep it lean” was the motto from beginning. The challenge was not just turning a paper application into a digital one, but also digitizing the overall process regulated by policy, the officers’ ad-hoc methods, and motivated behaviors to make the process more efficient.
+                </p>
+                <p>Starting with wireframes and utilizing components from USWDS (U.S. Web Design System), the idea was to showcase multiple applications (for each family member) simultanesouly on the screen.
+                </p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">02</span>
+              <div>
+                <h3>Protoypes & Usability Testing; Test & Reiterate</h3>
+                <p>By designing a functional prototype quickly piece by piece, this allowed me to gather feedback from users, for stakeholders to test the new application, and refine the solution to meet real-world needs.</p>
+              </div>
+            </div>
+            <div class="process-step">
+              <span class="step-number">03</span>
+              <div>
+                <h3>Revise & Retest</h3>
+                <p>Validated assumptions helped the overall design. Any negative feedback were redesigned and refined for the pilot.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Artifacts</p>
+          <h2>Design moments</h2>
+          <div class="artifact-grid">
+            <button
+              class="artifact-box"
+              type="button"
+              data-full="imgs/MVP-business-goals.png"
+              data-alt="Wireframe of final product"
+            >
+              <img src="imgs/MVP-business-goals.png" alt="Business goals on sticky notes from workshop with Stakeholders." />
+              <span class="artifact-caption">Workshop with stakeholders</span>
+            </button>
+
+            <button
+              class="artifact-box"
+              type="button"
+              data-full="imgs/FR-flowsteps.png"
+              data-alt="Wireframe flow showing refugee application review process"
+            >
+              <img src="imgs/FR-flowsteps.png" alt="Wireframe flow displaying refugee application review process" />
+              <span class="artifact-caption">Immigration Officer's Flow</span>
+            </button>
+
+            <button
+              class="artifact-box"
+              type="button"
+              data-full="imgs/MVP-interview-synthesis.png"
+              data-alt="Usability testing insight snapshot"
+            >
+              <img src="imgs/MVP-interview-synthesis.png" alt="Usability testing insight snapshot" />
+              <span class="artifact-caption">Usability interviews synthesis</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- lightbox -->
+      <div class="lightbox" id="lightbox" aria-hidden="true">
+        <div class="lightbox-backdrop"></div>
+
+        <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Expanded project artifact">
+          <button class="lightbox-close" type="button" aria-label="Close image preview">
+            ×
+          </button>
+
+          <img class="lightbox-image" src="" alt="" />
+          <p class="lightbox-caption"></p>
+        </div>
+      </div>
+      <!-- @end lightbox -->
+
+      <section class="case-section">
+        <div class="container narrow">
+          <p class="section-label">Impact</p>
+          <h2>Pilot & Liftoff!</h2>
+          <p>
+            After a successful pilot with a various group of immigration officers, we launched our MVP. The feedback was very positive with officers noting that it felt less tedious and stressful not having multiple papers spread across a desk in front of them. We hit our OKRs and MVP goals:
+          </p>
+            <div class="metrics-grid">
+              <div class="metric-card">
+                <strong>Better comprehension</strong>
+                <p>Users received more cues and clearer interaction support.</p>
+              </div>
+              <div class="metric-card">
+                <strong>Decrease in time</strong>
+                <p>35% decrease in completion time allowed for multi-tasking. Current average time spent: 44 mins (for families of up to 4 members).</p>
+              </div>
+              <div class="metric-card">
+                <strong>Policy-aware design</strong>
+                <p>The solution fit existing requirements while improving usability.</p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Biggest Challenges</p>
+          <h3>Remote locations can impact user experience</h3>
+          <p>Hardware and software usage can be impacted by disruptions to internet in remote locations such as El Salvador. Issues observed:
+            <ul>
+              <li>Low internet speed lower than 60mbp</li>
+              <li>Lags between clicking to access next step / screen</li>
+              <li>Signature not saving due to internet disruption</li>
+            </ul>
+          </p>
+          <h3>Early adopters pushback</h3>
+          <p>Our team encountered offices that weren't ready to utilize a new technology and felt confident with their current paper processes. Learning a new interface or tool can be a tedious task for those working in critical, high-stress environments.
+          </p>
+        </div>
+      </section>
+
+
+      <section class="case-section alt-bg">
+        <div class="container narrow">
+          <p class="section-label">Conclusion</p>
+          <h2>Takeaway: Real change is possible in government</h2>
+          <p>The path to digitization for a government agency can be uniquely challenging and a long journey! The process involves navigating a complex landscape of compliance, stringent security standards, and bureaucratic processes.</p>
+          <p>While the benefits were clear and the outcome was wanted by all parties, the process of doing so required careful consideration of immigration regulations, multiple layers of approval, and adhering to obsolete and restrictive policies.</p>
+          <p>An MVP in this context helps balance innovation with caution, allowing teams to develop a core digital solution that meets the essential needs while providing a framework for testing and feedback. It ensures that vital features such as automated workflows, real-time data validation, and secure storage are introduced early, making it easier to manage the unique governmental constraints.</p>
+        </p>
+        </div>
+      </section>
+    </article>
+  </main>
+
+<script src="lightbox-artifacts.js"></script>
+
+</body>
+</html>
