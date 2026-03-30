@@ -55,6 +55,8 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 50%;
+  background-image: url(ps_site/img/profilepic.jpg);
+  background-size: 100% 100%;
   background:
     radial-gradient(circle at 50% 35%, #f1ccb8 0 22%, transparent 23%),
     radial-gradient(circle at 50% 78%, #0e5469 0 34%, transparent 35%),
