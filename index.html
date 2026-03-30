@@ -15,7 +15,11 @@
     <link href="ps_site/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="ps_site/theme.css" rel="stylesheet">
     <link href="ps_site/css/twentytwenty.css" rel="stylesheet" type="text/css" media="screen" />
-
+    
+    <link rel="stylesheet" href="ps_site/projects.css" />
+    <link rel="stylesheet" href="ps_site/menu-nav.css" />
+    
+    <script src="ps_site/menu-nav.js"></script>
     <script src="ps_site/js/analytics.js"></script>
     <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     <script src="ps_site/js/progressbar.js"></script>
@@ -24,16 +28,40 @@
 
 <body>
    <div id="openingline"></div>
-   <div class="navbar">
-      <a href="https://melaniew.github.io/"><img class="img-crc" src="ps_site/img/profilepic.jpg" alt="Melanie White home" /></a>
-      <nav>
-        <ul>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <span class="brand-avatar"></span>
+        <span class="brand-name">Melanie White</span>
+      </a>
+
+      <nav class="main-nav">
+        <div class="nav-item has-dropdown">
+          <button
+            class="nav-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+          >
+            Work
+          </button>
+
+          <div class="dropdown-menu" role="menu">
+            <a href="mvp.html" role="menuitem">
+              MVP Case Study
+            </a>
+            <a href="ipad.html" role="menuitem">
+              iPad Case Study
+            </a>
+            <a href="ohlcf.html" role="menuitem">
+              OHLCF Web Redesign
+            </a>
+          </div>
+        </div>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
-   </div>
+    </div>
+  </header>
    
    <div class="container">
       <div id="intro" class="panel-profile">
@@ -85,53 +113,22 @@
    </div>
 
 
-   <div id="work" class="panel-work">
+   <!-- <div id="work" class="panel-work">
       <div class="container">
-
         <section id="work-preview" class="twentytwenty-container">
           <img src="ps_site/img/code-screenshot.png" />
           <img src="ps_site/img/chss-screenshot.png" />
         </section> 
-
-        <!--
-        <section>
-          <p>Links to work</p>
-          <a hred="#"><img src="" alt="GMU CHSS logo" /></a>
-          <a hred="#"><img src="" alt="Project Create logo" /></a>          
-        </section> class   
-        -->
-
          <div class="container" style="padding-bottom:0;">
           <a class="btn" href="MelanieWhiteResume.pdf" role="button" alt="View Melanie White resume">View Resume</a>
         </div>
-
       </div>
-   </div>
-
-  <div class="portfolio-container">
-    <div class="portfolio-card">
-      <img src="ps_site/project-image1.jpg" alt="Project 1">
-      <h3>Project Title 1</h3>
-      <p>A brief description of the project, showcasing the purpose and results.</p>
-      <a href="#" class="project-link">View Project</a>
-    </div>
-    <div class="portfolio-card">
-      <img src="ps_site/project-image2.jpg" alt="Project 2">
-      <h3>Project Title 2</h3>
-      <p>A brief description of the project, showcasing the purpose and results.</p>
-      <a href="#" class="project-link">View Project</a>
-    </div>
-    <div class="portfolio-card">
-      <img src="ps_site/project-image3.jpg" alt="Project 3">
-      <h3>Project Title 3</h3>
-      <p>A brief description of the project, showcasing the purpose and results.</p>
-      <a href="#" class="project-link">View Project</a>
-    </div>
+   </div> -->
 
    <footer id="contact">
       <div class="container">
          <h2>Melanie White</h2>
-         <p>email: <a href="mailto:melwhite.a@gmail.com">melwhite.a@gmail.com</a></p>
+         <p>email: <a href="mailto:hire.melaniewhite@gmail.com">hire.melaniewhite@gmail.com</a></p>
          <div class="social-icons">
             <ul>
               <li class="linkedin"><a href="https://www.linkedin.com/in/whitemelanie"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
