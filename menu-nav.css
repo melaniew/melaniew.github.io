@@ -1,0 +1,59 @@
+/* NAV DROPDOWN */
+.nav-item {
+  position: relative;
+}
+
+.nav-trigger {
+  background: none;
+  border: none;
+  font: inherit;
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Dropdown container */
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 0px);
+  left: 0;
+  min-width: 240px;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+  padding: 10px 0;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  opacity: 0;
+  transform: translateY(6px);
+  pointer-events: none;
+  transition: all 0.2s ease;
+  z-index: 1000;
+}
+
+/* Links */
+.dropdown-menu a {
+  display: block;
+  padding: 10px 16px;
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* SHOW DROPDOWN (hover + active) */
+.nav-item:hover .dropdown-menu,
+.nav-item.open .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+/* subtle caret indicator */
+.nav-trigger::after {
+  content: " ▾";
+  font-size: 10px;
+}
